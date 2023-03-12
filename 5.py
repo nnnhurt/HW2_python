@@ -1,11 +1,11 @@
 #5
 n = int(input())
-c = 0 #количество
+c = 1 #количество
 max = n
 while (n := int(input())) != 0:
     if n == max:
        c += 1
-    if n > max:
+    elif n > max:
         max = n
         c = 1
 print(c)
